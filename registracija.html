@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="hr">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registracija korisnika</title>
+    <link rel="stylesheet" type="text/css" href="css/prijava.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="assets/plugins/bootstrap-5.0.0-beta1-dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="assets/plugins/jquery/jquery-3.5.1.js"></script>
+
+
+</head>
+
+<body>
+    <section class="form my-4 mx-5">
+        <div class="card text-dark mb-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+
+                        <img src="images/typewriter-1248088_960_720.jpg" class="img-fluid">
+                    </div>
+                    <div class="col-lg-7">
+                        <form style="margin-top: 270px">
+                            <h1>PIN-INFO</h1>
+                            <div class="form-row">
+                                <div class="col-lg-7">
+                                    <label>Ime:</label>
+                                    <input id="ime" type="text" name="" placeholder="Ime" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-lg-7">
+                                    <label>Prezime:</label>
+                                    <input id="prezime" type="text" name="" placeholder="Prezime" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-lg-7">
+                                    <label>Korisničko ime:</label>
+                                    <input id="registracijskiEmail" type="email" name="" placeholder="Korisnicko ime"
+                                        class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-lg-7">
+                                    <label>Lozinka:</label>
+                                    <input id="registracijskaLozinka" type="password" name="" placeholder="***********"
+                                        class="form-control">
+                                </div>
+                                <br>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-lg-7">
+                                    <button type="button" class="btn btn-warning" id="registrirajSe">Registrirajte
+                                        se!</button>
+                                </div>
+                            </div>
+                            <a href="prijava.html">Vratite se na prijavu</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-firestore.js"></script>
+
+    <script>
+        var firebaseConfig = {
+            apiKey: "AIzaSyCtDkx7Fhkdo0TT5OEUWkX_0pJZIKUcr0c",
+            authDomain: "fir-info-fd0d5.firebaseapp.com",
+            databaseURL: "https://fir-info-fd0d5-default-rtdb.europe-west1.firebasedatabase.app",
+            projectId: "fir-info-fd0d5",
+            storageBucket: "fir-info-fd0d5.appspot.com",
+            messagingSenderId: "947999426128",
+            appId: "1:947999426128:web:e4b8dbff05e5860ed1f355"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="js/registracija.js"></script>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+
+</body>
+
+</html>

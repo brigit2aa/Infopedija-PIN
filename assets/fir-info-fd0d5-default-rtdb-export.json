@@ -1,0 +1,82 @@
+{
+  "clanak" : [ null, {
+    "Autor" : "Brigita Perković",
+    "Datum" : "3.11.2021.",
+    "Kategirija" : "1",
+    "KljucneRijeci" : "C model, Krpan, srednja škola, online nastava",
+    "Naslov" : "Online nastava",
+    "Ocjena" : "4",
+    "Opis" : "Od ponedjeljka online nastava u školama, ravnateljica OŠ u Kastvu: ''Sve se stigne ako smo međusobno solidarni''",
+    "Sadrzaj" : "U ponedjeljak...",
+    "Slika" : "images/skola.jpg"
+  }, {
+    "Autor" : "Brigita Perković",
+    "Datum" : "3.11.2021.",
+    "Kategirija" : "2",
+    "KljucneRijeci" : "Melanije, epidemiološke mjere, SAD, božićne priče, zelenoj",
+    "Naslov" : "Melanije privukla poglede kaputom",
+    "Ocjena" : "4",
+    "Opis" : "Još jedan ''ljepotan''! Kaput Melanije Trump u boji koja vlada njezinim ormarom",
+    "Sadrzaj" : "Svake godine uoči blagdana...",
+    "Slika" : "images/melani.jpg"
+  }, {
+    "Autor" : "Brigita Perković",
+    "Datum" : "3.11.2021.",
+    "Kategirija" : "3",
+    "KljucneRijeci" : "vlak, požar, listopada, relaciji, nedjelju",
+    "Naslov" : "Požar na motoru vlaka",
+    "Ocjena" : "4",
+    "Opis" : "Gorio još jedan vlak koji vozi na relaciji Osijek – Virovitica: Izbio požar na motoru",
+    "Sadrzaj" : "U nedjelju oko 6 sati izbio...",
+    "Slika" : "images/vlak2.jpeg"
+  }, {
+    "Autor" : "Brigita Perković",
+    "Datum" : "3.11.2021.",
+    "Kategirija" : "4",
+    "KljucneRijeci" : "Marić, EU, Sabor, milijardi, Vlade",
+    "Naslov" : "Ekonomska korist od članstva u EU",
+    "Ocjena" : "2",
+    "Opis" : "Marić: 'Za svaku uplaćenu kunu u proračun EU u idućih 7 godina, na raspolaganju nam je pet'",
+    "Sadrzaj" : "Hrvatski sabor, koji je u utorak...",
+    "Slika" : "images/sabor.jpg"
+  }, {
+    "Autor" : "Brigita Perković",
+    "Datum" : "24.8.2021.",
+    "Kategirija" : "1",
+    "KljucneRijeci" : "x, x, x, x, x",
+    "Naslov" : "x",
+    "Opis" : "x",
+    "Sadrzaj" : "x",
+    "Slika" : "x"
+  }, {
+    "Autor" : "Brigita Perković",
+    "Datum" : "30.8.2021.",
+    "Kategirija" : "1",
+    "KljucneRijeci" : "a",
+    "Naslov" : "a",
+    "Opis" : "a",
+    "Sadrzaj" : "a",
+    "Slika" : ""
+  } ],
+  "kategorije" : [ null, {
+    "Naziv" : "Aktualno"
+  }, {
+    "Naziv" : "Lifestyle"
+  }, {
+    "Naziv" : "Crna kronika"
+  }, {
+    "Naziv" : "Politika"
+  } ],
+  "korisnici" : {
+    "brigita" : {
+      "Ime" : "Brigita",
+      "Lozinka" : "lozinka",
+      "Prezime" : "Perković"
+    },
+    "slobodan" : {
+      "Ime" : "Slobodan",
+      "Lozinka" : "smarinkovic",
+      "Prezime" : "Marinković"
+    }
+  }
+}
